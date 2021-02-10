@@ -2,6 +2,7 @@ import React from "react";
 import ColoredBoxes from './coloredBoxes';
 import GraphHeader from './graphHeader';
 import GraphItself from './graphItself';
+import Companies from './companies';
 import home from "./images/home.png";
 import group from "./images/group.png";
 import project from "./images/project.png";
@@ -59,7 +60,7 @@ function App() {
         <ColoredBoxes />
         <GraphHeader />
         <GraphItself />
-        <div>hello i hope u didnt surpass</div>
+        <Companies />
       </div>
     </div>
   );
