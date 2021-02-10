@@ -12,6 +12,7 @@
     margin: auto;
     height: 148px;
     padding-left: 15px;
+    line-height: 30px;
 }
 
 .box1 {
@@ -28,4 +29,21 @@
 
 .box4 {
     background: #E7F5FE;
+}
+
+.number {
+  color: black;
+  font-weight: bolder;
+}
+
+.lastweek  {
+    color: rgb(190, 189, 189);
+}
+
+.percent {
+    color: green;
+}
+
+.percent1 {
+    color: red;
 }
