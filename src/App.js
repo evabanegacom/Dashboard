@@ -35,7 +35,12 @@ function App() {
               <div>search</div>
             </div>
           </div>
-          <div className='notification'>image and notification</div>
+          <div className='notification'>
+            <div className='notice'>
+              <div>notification</div>
+              <div>image</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

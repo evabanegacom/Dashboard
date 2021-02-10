@@ -78,4 +78,16 @@
 
 .notification {
   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.notice {
+  display: flex;
+}
+
+.notice div {
+  margin-right: 10px;
 }
