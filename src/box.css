@@ -1,0 +1,31 @@
+.boxes {
+    margin-top: 15px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.smallbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 248px;
+    margin: auto;
+    height: 148px;
+    padding-left: 15px;
+}
+
+.box1 {
+    background:  #FDECE2;
+}
+
+.box2 {
+    background: #EAEFFD;
+}
+
+.box3 {
+    background: #FFF3C5;
+}
+
+.box4 {
+    background: #E7F5FE;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import ColoredBoxes from './coloredBoxes';
 import home from "./images/home.png";
 import group from "./images/group.png";
 import project from "./images/project.png";
@@ -53,6 +54,7 @@ function App() {
           </div>
         </div>
         <div className='overview'><p>OverView</p></div>
+        <ColoredBoxes />
       </div>
     </div>
   );
