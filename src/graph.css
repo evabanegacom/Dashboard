@@ -13,6 +13,7 @@
     height: 178.85px;
     border: 1px solid rgb(190, 189, 189);
     display: flex;
+    background-color: linear-gradient(180deg, rgba(41, 121, 242, 0.1) 0%, rgba(41, 121, 242, 0.02) 100%);
     flex-direction: column;
     background: url('./images/redChart.png'), url('./images/blueChart.png'), url('./images/layer.png') no-repeat;
     background-size: cover;
