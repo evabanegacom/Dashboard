@@ -4,6 +4,9 @@ import group from "./images/group.png";
 import project from "./images/project.png";
 import messages from "./images/messages.png";
 import settings from "./images/settings.png";
+import search from "./images/search.png";
+import notification from "./images/notification.png";
+import confident from "./images/confident.png";
 
 function App() {
   return (
@@ -38,17 +41,18 @@ function App() {
         <div className="searchBar">
           <div className="searchCon">
             <div className="searchBox">
-              <div>icon</div>
+              <img src={search} alt='' />
               <div>search</div>
             </div>
           </div>
           <div className="notification">
             <div className="notice">
-              <div>notification</div>
-              <div>image</div>
+              <div><img src={notification} alt='' /></div>
+              <img className='confident' src={confident} alt='' />
             </div>
           </div>
         </div>
+        <div className='overview'><p>OverView</p></div>
       </div>
     </div>
   );
