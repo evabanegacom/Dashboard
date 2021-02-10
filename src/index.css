@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  border-radius: 30px;
+  perspective: 1px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.smallDiv {
+  width: 215px;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #F4F5FA;
+}
+
+.innerDiv {
+  margin-top: 80px;
+  line-height: 40px;
+}
+
+.innerDiv div {
+  display: flex;
+}
+
+.settings {
+  height: 500px;
+  border: 1px solid red;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.settingsDiv {
+  display: flex;
+}
+
+.bigDiv {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 1285px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+}
+
+.searchBox {
+  width: 400px;
+  border: 1px solid grey;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.searchBox div {
+  margin-left: 20px;
+}
+
+.searchCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 30px;
+}
+
+.notification {
+  border: 1px solid red;
+}
