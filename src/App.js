@@ -1,6 +1,7 @@
 import React from "react";
 import ColoredBoxes from './coloredBoxes';
 import GraphHeader from './graphHeader';
+import GraphItself from './graphItself';
 import home from "./images/home.png";
 import group from "./images/group.png";
 import project from "./images/project.png";
@@ -57,6 +58,8 @@ function App() {
         <div className='overview'><p>OverView</p></div>
         <ColoredBoxes />
         <GraphHeader />
+        <GraphItself />
+        <div>hello i hope u didnt surpass</div>
       </div>
     </div>
   );
