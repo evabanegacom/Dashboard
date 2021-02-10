@@ -1,0 +1,29 @@
+.monthCon {
+    margin-top: 30px;    
+}
+
+.month {
+    float: left;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 35px;
+    border: 1px solid rgb(190, 189, 189);
+}
+
+.projects {
+    float: right;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+.legends {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
