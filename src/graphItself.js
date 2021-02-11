@@ -15,7 +15,7 @@ const GraphItself = () => {
                 <div className='chart'>
                   <div className='insideChart'>
                       <div className='outlier'>
-                          <p>689</p>
+                          <p style={{ fontWeight: 'bold', color: 'black'}}>689</p>
                           <p>New Applicants</p>
                       </div>
                       <hr className='unknown'/>

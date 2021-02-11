@@ -37,7 +37,7 @@ function App() {
         <div className="settings">
           <div className="companies">
             <img src={settings} alt="" />
-            <p>Settings</p>
+            <p style={{fontSize: '18px'}}>Settings</p>
           </div>
         </div>
       </div>

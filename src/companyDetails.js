@@ -50,7 +50,7 @@ const CompanyDetails = () => {
               <div><p>Revenue</p></div>
           </div>
       </div>
-      <div className='firstCompany'>
+      <div className='firstCompany' style={{borderBottom: '1px solid transparent'}}>
           <div className='subCompany'>
               <div><input type='checkbox' name='company' id='company' /></div>
               <div><img src={cregital} alt='' /></div>
@@ -64,9 +64,9 @@ const CompanyDetails = () => {
               </div>
           </div>
       </div>
-      <div className='firstCompany'>
-          <div className='subCompany intelia'>
-              <div><input type='checkbox' name='company' id='company' /></div>
+      <div className='firstCompany' style={{ paddingLeft: 0}}>
+          <div className='subCompany intelia' style={{height: '50px'}}>
+              <div style={{marginLeft: '20px'}}><input type='checkbox' name='company' id='company' /></div>
               <div><img src={intelia} alt='' /></div>
               <div><p>Intelia</p></div>
               <div><p>102</p></div>

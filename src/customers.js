@@ -5,6 +5,10 @@ import amarillo from './images/amarillo.png'
 import white from './images/white-human.png'
 import red from './images/red-person.png'
 import cregital from './images/Cregital.png'
+import intelia from './images/intelia.png'
+import talosmart from './images/talosmart.png'
+import imperial from './images/imperial.png'
+import reverse from './images/reverse.png'
 
 const Customers = () => {
     return (
@@ -75,7 +79,7 @@ const Customers = () => {
                 <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '20px'}}>
                     <div><img src={cregital} alt='' /></div>
                     <div style={{display: 'flex', flexDirection: 'column'}}>
-                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Cregital</p></div>
                         <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
                         <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
                     </div>
@@ -86,9 +90,9 @@ const Customers = () => {
                     </div>
                 </div>
                 <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '10px'}}>
-                    <div><img src={cregital} alt='' /></div>
+                    <div><img src={intelia} alt='' /></div>
                     <div style={{display: 'flex', flexDirection: 'column'}}>
-                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Intelia</p></div>
                         <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
                         <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
                     </div>
@@ -99,9 +103,9 @@ const Customers = () => {
                     </div>
                 </div>
                 <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '10px'}}>
-                    <div><img src={cregital} alt='' /></div>
+                    <div><img src={talosmart} alt='' /></div>
                     <div style={{display: 'flex', flexDirection: 'column'}}>
-                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Talosmart</p></div>
                         <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
                         <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
                     </div>
@@ -112,9 +116,9 @@ const Customers = () => {
                     </div>
                 </div>
                 <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '10px'}}>
-                    <div><img src={cregital} alt='' /></div>
+                    <div><img src={imperial} alt='' /></div>
                     <div style={{display: 'flex', flexDirection: 'column'}}>
-                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>ImperialSoft</p></div>
                         <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
                         <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
                     </div>
@@ -125,9 +129,9 @@ const Customers = () => {
                     </div>
                 </div>
                 <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '10px'}}>
-                    <div><img src={cregital} alt='' /></div>
+                    <div><img src={reverse} alt='' /></div>
                     <div style={{display: 'flex', flexDirection: 'column'}}>
-                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Cregital</p></div>
                         <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
                         <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
                     </div>
