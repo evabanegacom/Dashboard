@@ -17,6 +17,8 @@
     display: flex;
     width: 50%;
     justify-content: space-between;
+    font-size: 15px;
+    color: #110B56;
 }
 
 .all {
@@ -49,7 +51,7 @@
 
 .subtitle {
     padding-left: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 input[type="checkbox"] {
@@ -60,14 +62,55 @@ input[type="checkbox"] {
     display: flex;
     width: 85%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .subCompany {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .firstCompany {
     margin-top: 20px;
     padding-left: 20px;
+    border-bottom: 1px solid rgb(236, 230, 230);
+    font-size: 15px;
+    color: #110B56;
+}
+
+.theLastOne p{
+    float: right;
+    color: #50B83C;
+    margin-right: 10px;
+}
+
+.theLastOne img{
+    margin-left: 10px;
+}
+
+.theLastOne {
+    background: #E3F1DF;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.intelia {
+    background: #EAEFFD;
+}
+
+.declined {
+    background: #FDECE2;
+}
+
+.declined p {
+    color: #FA5F1C;
+}
+
+.pending {
+    background: #FFFAE8;
+}
+
+.pending p {
+    color: #FFCA00;
 }
