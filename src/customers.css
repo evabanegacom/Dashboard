@@ -1,4 +1,15 @@
 .satisfaction {
     width: 30%;
-    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes1 {
+    background: #E7F5FE;
+    padding-left: 15px;
+    height: 286px;
+    width: 95%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
