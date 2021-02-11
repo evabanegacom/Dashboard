@@ -4,6 +4,7 @@ import human from './images/human.jpeg'
 import amarillo from './images/amarillo.png'
 import white from './images/white-human.png'
 import red from './images/red-person.png'
+import cregital from './images/Cregital.png'
 
 const Customers = () => {
     return (
@@ -66,7 +67,77 @@ const Customers = () => {
                     <div style={{ color: 'grey', fontSize: '15px'}}><p>20%</p></div>
                 </div>
             </div>
-            <div class>box 2</div>
+            <div className='lastBox'>
+                <div style={{ display: 'flex', justifyContent: 'space-around'}}>
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-start', fontWeight: 'bold', fontSize: '20px', width: '130px', height: '35px', color: '#2979F2'}}><p>Messages</p></div>
+                    <div style={{width: '130px', fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', height: '35px', background: '#2979F2'}}> + New Messages</div>
+                </div>
+                <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '20px'}}>
+                    <div><img src={cregital} alt='' /></div>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
+                        <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
+                    </div>
+                    <div  className='dots' style={{ display: 'flex', flexDirection: 'column', lineHeight: '10px'}}>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                    </div>
+                </div>
+                <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '10px'}}>
+                    <div><img src={cregital} alt='' /></div>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
+                        <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
+                    </div>
+                    <div  className='dots' style={{ display: 'flex', flexDirection: 'column', lineHeight: '10px'}}>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                    </div>
+                </div>
+                <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '10px'}}>
+                    <div><img src={cregital} alt='' /></div>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
+                        <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
+                    </div>
+                    <div  className='dots' style={{ display: 'flex', flexDirection: 'column', lineHeight: '10px'}}>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                    </div>
+                </div>
+                <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '10px'}}>
+                    <div><img src={cregital} alt='' /></div>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
+                        <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
+                    </div>
+                    <div  className='dots' style={{ display: 'flex', flexDirection: 'column', lineHeight: '10px'}}>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                    </div>
+                </div>
+                <div style={{display: 'flex', borderBottom: '1px solid lightgrey', justifyContent: 'space-around', marginTop: '10px'}}>
+                    <div><img src={cregital} alt='' /></div>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <div style={{color: '#2979F2', fontSize: '15px', fontWeight: 'bold'}}><p>Credential</p></div>
+                        <div style={{fontSize: '12px', color: 'grey'}}><p>Hey don't forget to clear the server cache</p></div>
+                        <div style={{fontSize: '10px', color: 'grey', marginBottom: '10px'}}><p>25 mins ago</p></div>
+                    </div>
+                    <div  className='dots' style={{ display: 'flex', flexDirection: 'column', lineHeight: '10px'}}>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                        <div><p>.</p></div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

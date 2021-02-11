@@ -46,8 +46,8 @@
 .bigDiv {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   width: 1285px;
+  background: white;
 }
 
 .searchBar {
@@ -159,7 +159,6 @@
 }
 
 .overview {
-  width: 1px solid red;
   margin-top: 20px;
   color: black;
   font-weight: bolder;
