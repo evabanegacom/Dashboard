@@ -114,3 +114,31 @@ input[type="checkbox"] {
 .pending p {
     color: #FFCA00;
 }
+
+.paginate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pages {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.pages div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(190, 189, 189);
+}
+
+.pages img {
+    width: 10px;
+    height: 10px;
+    margin-top: 14px;
+}

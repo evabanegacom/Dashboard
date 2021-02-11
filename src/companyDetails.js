@@ -14,6 +14,8 @@ import atlasian from "./images/atlasian.png";
 import weevil from "./images/weevil.png";
 import cloud from "./images/cloud.png";
 import enyata from "./images/enyata.png";
+import left from "./images/left.png";
+import right from "./images/right.png";
 
 const CompanyDetails = () => {
   return (
@@ -188,8 +190,16 @@ const CompanyDetails = () => {
               </div>
           </div>
       </div>
-      <div>
-        <div>hello men and brethren</div>
+      <div className='paginate'>
+        <div className='pages'>
+          <img src={left} alt='' />
+          <div style={{background: '#110B56', color: 'white'}}><p>1</p></div>
+          <div><p>2</p></div>
+          <div><p>3</p></div>
+          <div style={{border: '1px solid transparent'}}><p>...</p></div>
+          <div><p>200</p></div>
+          <img src={right} alt='' />
+        </div>
       </div>
     </div>
   );
